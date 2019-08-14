@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "M:/MODULES/Year 3/CE339 High level digital/Assignment2/Assignment2 code/main.xst" -ofn "M:/MODULES/Year 3/CE339 High level digital/Assignment2/Assignment2 code/main.syr" 

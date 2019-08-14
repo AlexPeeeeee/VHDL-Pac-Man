@@ -1,0 +1,54 @@
+# This file is a general .ucf for Basys2 rev C board
+
+# clock pin for Basys2 Board
+#NET "MCLK" LOC = "B8"; # Bank = 0, Signal name = MCLK
+NET "UCLK" LOC = "M6"; # Bank = 2, Signal name = UCLK
+#NET "MCLK" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "UCLK" CLOCK_DEDICATED_ROUTE = FALSE;
+
+# Pin assignment for DispCtl
+#NET "CATHODES" LOC =   "L14"; # Bank = 1, Signal name = CA
+#NET "CATHODES<1>" LOC = "H12"; # Bank = 1, Signal name = CB
+#NET "CATHODES<2>" LOC = "N14"; # Bank = 1, Signal name = CC
+#NET "CATHODES<3>" LOC = "N11"; # Bank = 2, Signal name = CD
+#NET "CATHODES<4>" LOC = "P12"; # Bank = 2, Signal name = CE
+#NET "CATHODES<5>" LOC = "L13"; # Bank = 1, Signal name = CF
+#NET "CATHODES" LOC = "M12"; # Bank = 1, Signal name = CG
+#NET "DP" LOC = "N13"; # Bank = 1, Signal name = DP
+
+#NET "ANODES<3>" LOC = "K14"; # Bank = 1, Signal name = AN3
+#NET "ANODES<2>" LOC = "M13"; # Bank = 1, Signal name = AN2
+#NET "ANODES<1>" LOC = "J12"; # Bank = 1, Signal name = AN1
+#NET "ANODES<0>" LOC = "F12"; # Bank = 1, Signal name = AN0
+
+# Pin assignment for LEDs
+#NET "LED<7>" LOC = "G1" ; # Bank = 3, Signal name = LD7
+#NET "LED<6>" LOC = "P4" ; # Bank = 2, Signal name = LD6
+#NET "LED<5>" LOC = "N4" ;  # Bank = 2, Signal name = LD5
+#NET "LED<4>" LOC = "N5" ;  # Bank = 2, Signal name = LD4
+#NET "LED<3>" LOC = "P6" ; # Bank = 2, Signal name = LD3
+#NET "LED<2>" LOC = "P7" ; # Bank = 3, Signal name = LD2
+#NET "LED<1>" LOC = "M11" ; # Bank = 2, Signal name = LD1
+#NET "LED<0>" LOC = "M5" ;  # Bank = 2, Signal name = LD0
+
+# Buttons
+NET "UP" LOC = "A7";  # Bank = 1, Signal name = BTN3
+NET "DOWN" LOC = "M4";  # Bank = 0, Signal name = BTN2
+NET "LEFT" LOC = "C11"; # Bank = 2, Signal name = BTN1
+NET "RIGHT" LOC = "G12"; # Bank = 0, Signal name = BTN0
+
+# Pin assignment for VGA
+NET "HSYNC"   LOC = "J14";#  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = HSYNC
+NET "VSYNC"   LOC = "K13";#  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = VSYNC
+
+NET "RGB_OUT<7>"  LOC = "F13";#  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = RED2
+NET "RGB_OUT<6>"  LOC = "D13";#  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = RED1
+NET "RGB_OUT<5>"  LOC = "C14";#  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = RED0
+NET "RGB_OUT<4>"  LOC = "G14";#  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = GRN2
+NET "RGB_OUT<3>"  LOC = "G13";#  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = GRN1 
+NET "RGB_OUT<2>"  LOC = "F14";#  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = GRN0 
+NET "RGB_OUT<1>"  LOC = "J13";#  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = BLU2
+NET "RGB_OUT<0>"  LOC = "H13";#  | DRIVE = 2  | PULLUP ; # Bank = 1, Signal name = BLU1 
+
+# assignment for reset button
+#NET "RESET" LOC = "N3";

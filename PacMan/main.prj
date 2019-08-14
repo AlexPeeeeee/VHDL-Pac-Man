@@ -1,0 +1,6 @@
+vhdl work "vga_controller_800_60.vhd"
+vhdl work "Pacman.vhd"
+vhdl work "PacDots.vhd"
+vhdl work "Ghost.vhd"
+vhdl work "Arena.vhd"
+vhdl work "main.vhd"

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=M:\MODULES\Year 3\CE339 High level digital\Assignment2\Assignment2 code\main.ncd
+OUTFILE=M:\MODULES\Year 3\CE339 High level digital\Assignment2\Assignment2 code\main.bit
+FAMILY=Spartan3E
+PART=xc3s100e-4cp132
+WORKINGDIR=M:\MODULES\Year 3\CE339 High level digital\Assignment2\Assignment2 code
+LICENSE=ISE
+USER_INFO=174459878_175251998_210552480_907
